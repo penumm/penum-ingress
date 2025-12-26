@@ -2,6 +2,16 @@
 
 penum-ingress is a privacy-preserving Ethereum TRANSACTION INGRESS LAYER designed to reduce transaction-level metadata correlation and make MEV-driven surveillance and soft censorship harder and more observable.
 
+## Grant Readiness
+
+This project is fully prepared for Ethereum Foundation grant applications with:
+
+- Complete technical specification ([TECHNICAL-SPEC.md](TECHNICAL-SPEC.md))
+- Detailed grant proposal ([GRANT-PROPOSAL.md](GRANT-PROPOSAL.md))
+- Comprehensive development roadmap ([ROADMAP.md](ROADMAP.md))
+- Production-ready implementation
+- Extensive documentation and testing
+
 ## Scope
 
 penum-ingress accepts only fully signed Ethereum transactions and forwards them to existing MEV relays/builders in a way that reduces transaction-level metadata correlation. It operates strictly BEFORE transactions reach public mempools, MEV relays, builders, or proposers.
